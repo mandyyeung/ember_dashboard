@@ -1,4 +1,4 @@
-SimpleDashboard.OrdersController = Ember.ArrayController.extend({
+EmberDashboard.OrdersController = Ember.ArrayController.extend({
 
   totalQuantity: (->
     @reduce(((previousValue, order) ->

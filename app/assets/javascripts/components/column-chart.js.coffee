@@ -1,4 +1,4 @@
-SimpleDashboard.ColumnChartComponent = Ember.Component.extend
+EmberDashboard.ColumnChartComponent = Ember.Component.extend
   tagName: 'div'
   classNames: ['highcharts']
 

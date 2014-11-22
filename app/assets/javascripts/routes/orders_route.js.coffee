@@ -1,4 +1,4 @@
-SimpleDashboard.OrdersRoute = Ember.Route.extend({
+EmberDashboard.OrdersRoute = Ember.Route.extend({
   model: ->
     [
       {
