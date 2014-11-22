@@ -16,13 +16,8 @@ EmberDashboard.ColumnChartComponent = Ember.Component.extend
           text: 'Product Number'
         }
       },
-      series: [{
-        name: 'Quantity',
-        data: [4,4]
-        }, {
-        name: 'Revenue',
-        data: [10.0,10.0]
-      }]
+      series: @series,
+      tooltip: {pointFormat: '{series.name}: <b>{point.y}</b><br/>'},
       })
 
   willDestroyElement: ->
