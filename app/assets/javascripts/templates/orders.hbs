@@ -13,9 +13,9 @@
     <td>{{firstName}}</td>
     <td>{{lastName}}</td>
     <td>{{quantity}}</td>
-    <td>{{revenue}}</td>
+    <td>{{numberToCurrency revenue}}</td>
   </tr>
   {{/each}}
 </table>
 <p>Total Quantity: <b>{{totalQuantity}}</b></p>
-<p>Total Revenue: <b>{{totalRevenue}}</b></p>
+<p>Total Revenue: <b>{{numberToCurrency totalRevenue}}</b></p>
